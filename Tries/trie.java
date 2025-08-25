@@ -77,7 +77,7 @@ public class trie {
         System.out.println(wordBreak(key));
 
         System.out.println(startsWith("i"));
-        System.out.println(startsWith("s"));
+        System.out.println(startsWith("sai"));
 
     }
 }
