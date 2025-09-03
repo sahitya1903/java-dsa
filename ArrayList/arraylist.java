@@ -33,8 +33,8 @@ public class arraylist {
         System.out.println(list.size());
 
         //Printing arraylist
-        for(int i=0;i<list.size();i++){
-            System.out.print(list.get(i)+" ");
+        for (Integer integer : list) {
+            System.out.print(integer + " ");
         }
         System.out.println();
 
@@ -44,7 +44,7 @@ public class arraylist {
         }
         System.out.println();
 
-        ArrayList<String> cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
