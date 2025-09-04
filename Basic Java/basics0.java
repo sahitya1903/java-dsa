@@ -1,5 +1,5 @@
 public class basics0{
-    public static void main(String args[]) {  //boilerplate code
+    public static void main(String[] args) {  //boilerplate code
         System.out.print("Hello");
         System.out.print("Hello World!");
         System.out.println("Sahitya");      //newline
