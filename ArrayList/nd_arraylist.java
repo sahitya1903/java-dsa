@@ -8,7 +8,7 @@ public class nd_arraylist {
         ArrayList<Integer> list3=new ArrayList<>(); 
         
         for(int i=1;i<=5;i++){
-            list1.add(i*1);
+            list1.add(i);
             list2.add(i*2);
             list3.add(i*3);
         }
@@ -23,10 +23,9 @@ public class nd_arraylist {
         
         System.out.println(mainlist);
 
-        for (int i = 0; i < mainlist.size(); i++) {
-            ArrayList<Integer> currlist=mainlist.get(i);
-            for(int j=0;j<currlist.size();j++){
-                System.out.print(currlist.get(j)+" ");
+        for (ArrayList<Integer> currlist : mainlist) {
+            for (Integer integer : currlist) {
+                System.out.print(integer + " ");
             }
             System.out.println();
         }
