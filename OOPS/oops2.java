@@ -15,7 +15,6 @@ public class oops2{
 class Pen2{
     private String color;
     private int tip;
-  
     String getcolor(){
         return this.color;
     }
