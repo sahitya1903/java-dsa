@@ -1,3 +1,5 @@
+package ArrayList;
+
 import java.util.*;
 public class arraylist {
     @SuppressWarnings("unused")
