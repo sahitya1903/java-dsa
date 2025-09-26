@@ -13,6 +13,7 @@ class Pen {
 
 class BankAccount {
     public String username;
+    @SuppressWarnings("unused")
     private String password;
 
     public void setpassword(String pwd) {
