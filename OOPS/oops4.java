@@ -1,4 +1,3 @@
-@SuppressWarnings("unused")
 public class oops4 {
     public static void main(String[] args) {
         Fish shark=new Fish();
