@@ -1,28 +1,26 @@
+class Pen {
+    String color;
+    int tip;
+
+    void Setcolor(String newcolor) {
+        color = newcolor;
+    }
+
+    void settip(int newtip) {
+        tip = newtip;
+    }
+}
+
+class BankAccount {
+    public String username;
+    private String password;
+
+    public void setpassword(String pwd) {
+        password = pwd;
+    }
+}
+
 public class OOPS {
-
-    static class Pen {
-        String color;
-        int tip;
-
-        void Setcolor(String newcolor) {
-            color = newcolor;
-        }
-
-        void settip(int newtip) {
-            tip = newtip;
-        }
-    }
-
-    @SuppressWarnings("unused")
-    static class BankAccount {
-        public String username;
-        private String password;
-
-        public void setpassword(String pwd) {
-            password = pwd;
-        }
-    }
-
     public static void main(String[] args) {
         Pen p1 = new Pen(); //object p1
         p1.Setcolor("Blue");
