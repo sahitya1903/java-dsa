@@ -4,6 +4,7 @@ public static void changearr(int arr[],int i,int val) {
         printarr(arr);
         return;
     }
+    
     arr[i]=val;
     changearr(arr,i+1,val+1);
     arr[i]=arr[i]-1;
