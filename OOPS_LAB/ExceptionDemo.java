@@ -1,11 +1,12 @@
+import java.util.*;
 public class ExceptionDemo {
     public static void main(String[] args) {
 
         try {
-            int a = 10, b = 0;
+            Scanner sc=new Scanner(System.in);
+            int a = sc.nextInt(), b = sc.nextInt();
             int c = a / b; // ArithmeticException
             System.out.println(c);
-
             int arr[] = {1, 2, 3};
             System.out.println(arr[5]); // ArrayIndexOutOfBoundsException
 
