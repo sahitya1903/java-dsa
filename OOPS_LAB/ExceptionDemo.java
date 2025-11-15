@@ -1,9 +1,8 @@
 import java.util.*;
 public class ExceptionDemo {
     public static void main(String[] args) {
-
+        Scanner sc=new Scanner(System.in);
         try {
-            Scanner sc=new Scanner(System.in);
             int a = sc.nextInt(), b = sc.nextInt();
             int c = a / b; // ArithmeticException
             System.out.println(c);
