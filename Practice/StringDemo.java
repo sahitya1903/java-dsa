@@ -5,6 +5,7 @@ public class StringDemo {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a sentence: ");
         String sentence = sc.nextLine();
+        sc.close();
 
         // String
         System.out.println("Original: " + sentence);

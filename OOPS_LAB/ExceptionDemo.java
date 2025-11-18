@@ -15,6 +15,7 @@ public class ExceptionDemo {
             System.out.println("Error: Invalid array index.");
         } finally {
             System.out.println("Cleanup code executed (finally block).");
+            sc.close();
         }
     }
 }

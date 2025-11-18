@@ -29,7 +29,8 @@ public class TicketQueue {
                     break;
 
                 case 4:
-                    return;
+                    sc.close();
+                    break;
 
                 default:
                     System.out.println("Invalid Choice!");
