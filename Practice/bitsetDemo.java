@@ -22,5 +22,8 @@ public class bitsetDemo{
         b1.and(b2);
 
         System.out.println("After AND operation: " + b1);
+        System.out.println(b1.cardinality());
+        b1.clear(5);
+        System.out.println(b1);
     }
 }
