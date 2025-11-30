@@ -8,7 +8,7 @@ public class MouseEventsAWT extends Frame
     private int x = 0, y = 0;
 
     public MouseEventsAWT() {
-        super("Mouse Events (AWT) - Example");
+        setTitle("Mouse Events (AWT) - Example");
         setSize(400, 300);
         setVisible(true);
 
@@ -45,13 +45,13 @@ public class MouseEventsAWT extends Frame
 
     public void mouseEntered(MouseEvent me) {
         msg = "Mouse Entered";
-        x = 10; y = 20;
+        x = me.getX(); y = me.getY();
         repaint();
     }
 
     public void mouseExited(MouseEvent me) {
         msg = "Mouse Exited";
-        x = 10; y = 20;
+        x = me.getX(); y = me.getY();
         repaint();
     }
 
