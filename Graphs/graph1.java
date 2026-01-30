@@ -28,7 +28,7 @@ public class graph1 {
         //vertex 1
         graph[1].add(new Edge(1,0,5));
         graph[1].add(new Edge(1,2,1));
-        graph[1].add(new Edge(2,1,1));
+        graph[1].add(new Edge(1,2,1));
         
         //vertex 2
         graph[2].add(new Edge(2,1,1));
